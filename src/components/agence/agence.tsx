@@ -41,8 +41,14 @@ const Agence = () => {
             scrollTrigger:{
                 trigger:imageDivRef.current,
                 start: 'top 31%',
-                end: 'top -85%',
+                end: 'top -86%',
                 pin: true,
+                pinSpacing: true,
+                pinReparent: true,
+                pinType: 'transform',
+                scrub: 1,
+                anticipatePin: 1,
+                invalidateOnRefresh: true,
                 onUpdate: (self) => {
                     let index;
                     if(self.progress<1){
