@@ -64,10 +64,10 @@ const Agence = () => {
 
     return (
         <div>
-            <div className='section1'>
+            <div className='relative section1'>
                 <div 
                     ref={imageDivRef}
-                    className='absolute h-[20vw] w-[15vw] rounded-3xl  top-[31%] left-[30vw] overflow-hidden'
+                    className='absolute h-[20vw] w-[15vw] rounded-3xl  top-96 left-[30vw] overflow-hidden'
                 >
                     <Image
                         src={currentSrc}
@@ -77,7 +77,7 @@ const Agence = () => {
                         className='w-full h-full object-cover'
                     />
                 </div>
-                <div className='relative font-font2'>
+                <div className='relative font-font2 text-black'>
                     <div className='mt-[55vh]'>
                         <h1 className='text-[20vw] text-center uppercase leading-[18vw]'>
                             Soixan7e <br/> Douze
