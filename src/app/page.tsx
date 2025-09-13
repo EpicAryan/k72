@@ -4,7 +4,7 @@ import Video from "@/components/home/Video";
 
 export default function Home() {
   return (
-    <div className="h-screen">
+    <div className="h-screen overflow-x-hidden">
       <div className="h-full w-full fixed">
         <Video/>
       </div>
